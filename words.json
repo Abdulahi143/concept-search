@@ -1,0 +1,339 @@
+[    
+      {
+        "word": "Variable",
+        "definition": "A named container for storing data that can be changed during the execution of a program.",
+        "usage": [
+          "var x = 5;",
+          "let y = 'Hello';"
+        ]
+      },
+      {
+        "word": "Function",
+        "definition": "A reusable block of code that performs a specific task.",
+        "usage": [
+          "function greet(name) {",
+          "  console.log('Hello, ' + name + '!');",
+          "}",
+          "",
+          "greet('John');"
+        ]
+      },
+      {
+        "word": "Array",
+        "definition": "A data structure that stores a collection of elements, each identified by an index.",
+        "usage": [
+          "let numbers = [1, 2, 3, 4, 5];",
+          "console.log(numbers[0]);"
+        ]
+      },
+      {
+        "word": "Object",
+        "definition": "A collection of key-value pairs used to represent a real-world entity or concept.",
+        "usage": [
+          "let person = {",
+          "  name: 'John',",
+          "  age: 30",
+          "};",
+          "console.log(person.name);"
+        ]
+      },
+      {
+        "word": "String",
+        "definition": "A sequence of characters, enclosed in single or double quotes.",
+        "usage": [
+          "let message = 'Hello, world!';",
+          "console.log(message.length);"
+        ]
+      },
+      {
+        "word": "Number",
+        "definition": "A numeric value in JavaScript.",
+        "usage": [
+          "let x = 5;",
+          "let y = 10;",
+          "console.log(x + y);"
+        ]
+      },
+      {
+        "word": "Boolean",
+        "definition": "A data type that represents either `true` or `false`.",
+        "usage": [
+          "let isLogged = true;",
+          "let hasPermission = false;",
+          "console.log(isLogged);"
+        ]
+      },
+      {
+        "word": "Operator",
+        "definition": "A symbol that performs an operation on one or more operands.",
+        "usage": [
+          "let x = 5;",
+          "let y = 10;",
+          "let sum = x + y;",
+          "console.log(sum);"
+        ]
+      },
+      {
+        "word": "Condition",
+        "definition": "A statement that controls the flow of a program based on a specified condition.",
+        "usage": [
+          "let x = 5;",
+          "if (x > 0) {",
+          "  console.log('Positive');",
+          "} else {",
+          "  console.log('Negative');",
+          "}"
+        ]
+      },
+      {
+        "word": "Loop",
+        "definition": "A control flow statement that repeatedly executes a block of code until a specified condition is met.",
+        "usage": [
+          "for (let i = 0; i < 5; i++) {",
+          "  console.log(i);",
+          "}"
+        ]
+      },
+      {
+        "word": "Parameter",
+        "definition": "A named variable in a function that receives a value when the function is called.",
+        "usage": [
+          "function greet(name) {",
+          "  console.log('Hello, ' + name + '!');",
+          "}",
+          "",
+          "greet('John');"
+        ]
+      },
+      {
+        "word": "Argument",
+        "definition": "A value passed to a function when calling it, corresponding to its parameters.",
+        "usage": [
+          "function multiply(x, y) {",
+          "  return x * y;",
+          "}",
+          "",
+          "let result = multiply(3, 4);",
+          "console.log(result);"
+        ]
+      },
+      {
+        "word": "Return",
+        "definition": "A statement that specifies the value to be returned by a function.",
+        "usage": [
+          "function add(x, y) {",
+          "  return x + y;",
+          "}",
+          "",
+          "let sum = add(5, 3);",
+          "console.log(sum);"
+        ]
+      },
+      {
+        "word": "Null",
+        "definition": "A special value that represents the intentional absence of any object value.",
+        "usage": [
+          "let data = null;",
+          "console.log(data);"
+        ]
+      },
+      {
+        "word": "Undefined",
+        "definition": "A value that is automatically assigned to variables that have been declared but not initialized.",
+        "usage": [
+          "let name;",
+          "console.log(name);"
+        ]
+      },
+      {
+        "word": "NaN",
+        "definition": "A special value representing Not-a-Number.",
+        "usage": [
+          "let result = 10 / 'Hello';",
+          "console.log(result);"
+        ]
+      },
+      {
+        "word": "If statement",
+        "definition": "A conditional statement that executes a block of code if a specified condition is true.",
+        "usage": [
+          "let x = 5;",
+          "if (x > 0) {",
+          "  console.log('Positive');",
+          "}"
+        ]
+      },
+      {
+        "word": "Else statement",
+        "definition": "A block of code that executes if the preceding `if` statement condition is false.",
+        "usage": [
+          "let x = -3;",
+          "if (x > 0) {",
+          "  console.log('Positive');",
+          "} else {",
+          "  console.log('Negative');",
+          "}"
+        ]
+      },
+      {
+        "word": "Else if statement",
+        "definition": "A statement that allows for multiple conditions to be tested, each with its own block of code.",
+        "usage": [
+          "let x = 0;",
+          "if (x > 0) {",
+          "  console.log('Positive');",
+          "} else if (x < 0) {",
+          "  console.log('Negative');",
+          "} else {",
+          "  console.log('Zero');",
+          "}"
+        ]
+      },
+      {
+        "word": "Polymorphism",
+        "definition": "The ability of an object to take on many forms.",
+        "usage": [
+          "class Shape {",
+          "  draw() {",
+          "    console.log('Drawing a shape.');",
+          "  }",
+          "}",
+          "",
+          "class Circle extends Shape {",
+          "  draw() {",
+          "    console.log('Drawing a circle.');",
+          "  }",
+          "}",
+          "",
+          "class Square extends Shape {",
+          "  draw() {",
+          "    console.log('Drawing a square.');",
+          "  }",
+          "}",
+          "",
+          "let shapes = [new Circle(), new Square()];",
+          "shapes.forEach(shape => shape.draw());"
+        ]
+      },
+      {
+        "word": "Callback function",
+        "definition": "A function that is passed as an argument to another function and is executed later.",
+        "usage": [
+          "function calculate(num1, num2, operation) {",
+          "  return operation(num1, num2);",
+          "}",
+          "",
+          "function add(x, y) {",
+          "  return x + y;",
+          "}",
+          "",
+          "let result = calculate(5, 3, add);",
+          "console.log(result);"
+        ]
+      },
+      {
+        "word": "Promise",
+        "definition": "An object representing the eventual completion or failure of an asynchronous operation.",
+        "usage": [
+          "function fetchData() {",
+          "  return new Promise((resolve, reject) => {",
+          "    setTimeout(() => {",
+          "      const data = 'Some data';",
+          "      resolve(data);",
+          "    }, 2000);",
+          "  });",
+          "}",
+          "",
+          "fetchData().then(data => {",
+          "  console.log(data);",
+          "});"
+        ]
+      },
+      {
+        "word": "Async/await",
+        "definition": "A modern JavaScript syntax for handling asynchronous operations using promises.",
+        "usage": [
+          "async function fetchData() {",
+          "  return new Promise((resolve, reject) => {",
+          "    setTimeout(() => {",
+          "      const data = 'Some data';",
+          "      resolve(data);",
+          "    }, 2000);",
+          "  });",
+          "}",
+          "",
+          "async function getData() {",
+          "  const data = await fetchData();",
+          "  console.log(data);",
+          "}",
+          "",
+          "getData();"
+        ]
+      },
+      {
+        "word": "Module",
+        "definition": "A self-contained piece of code that encapsulates related functionality and can be reused in different parts of a program.",
+        "usage": [
+          "// math.js",
+          "export function add(x, y) {",
+          "  return x + y;",
+          "}",
+          "",
+          "// main.js",
+          "import { add } from './math.js';",
+          "",
+          "console.log(add(5, 3));"
+        ]
+      },
+      {
+        "word": "Package",
+        "definition": "A collection of modules or libraries that can be easily installed and used in a project.",
+        "usage": [
+          "// package.json",
+          "{",
+          "  \"name\": \"my-project\",",
+          "  \"version\": \"1.0.0\",",
+          "  \"dependencies\": {",
+          "    \"library-name\": \"^1.2.3\"",
+          "  }",
+          "}",
+          "",
+          "// main.js",
+          "import library from 'library-name';",
+          "",
+          "// Use the library"
+        ]
+      },
+      {
+        "word": "Framework",
+        "definition": "A pre-designed software environment that provides a foundation for creating applications.",
+        "usage": [
+          "const express = require('express');",
+          "const app = express();",
+          "",
+          "app.get('/', (req, res) => {",
+          "  res.send('Hello, world!');",
+          "});",
+          "",
+          "app.listen(3000, () => {",
+          "  console.log('Server started on port 3000');",
+          "});"
+        ]
+      },
+      {
+        "word": "API",
+        "definition": "(Application Programming Interface) A set of rules and protocols that allows different software applications to communicate and interact with each other.",
+        "usage": [
+          "// Make a GET request to an API",
+          "fetch('https://api.example.com/data')",
+          "  .then(response => response.json())",
+          "  .then(data => {",
+          "    console.log(data);",
+          "  })",
+          "  .catch(error => {",
+          "    console.log(error);",
+          "  });"
+        ]
+      }
+  
+    ]

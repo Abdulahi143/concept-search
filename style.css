@@ -1,0 +1,199 @@
+body {
+    background-color: navy;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 28px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-img {
+    width: 150px;
+    height: auto;
+}
+
+.logo-text {
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#concept-areas {
+    margin-left: 10px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.search-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    margin-right: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.searchBtn {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: navy;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.display {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label,
+select {
+    color: white;
+}
+
+.learned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+/* Updated styles */
+
+.concept-display-wrapper, .learned-display{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: navy;
+}
+
+.concept-info {
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+
+.learned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.learned input[type="checkbox"] {
+    margin-right: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.concept-display-wrapper {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: navy;
+}
+
+.concept-info {
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+
+
+.learned input[type="checkbox"]:checked::before {
+    content: "✔";
+    display: inline-block;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    background-color: navy;
+    border-radius: 3px;
+}
